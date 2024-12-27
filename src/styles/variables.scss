@@ -1,0 +1,32 @@
+/**
+ * @file variables.scss
+ * @description 全局样式变量
+ * @author glennjia <glennjia@qq.com>
+ * @created 2024-03
+ */
+
+// 字体系列
+$font-family-base: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', 
+                   'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+$font-family-number: 'DIN Alternate', 'Arial Narrow', Arial, sans-serif;
+$font-family-clock: 'Roboto Mono', monospace;
+
+// 颜色变量
+$primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+$text-primary: #333;
+$text-secondary: #666;
+$background-light: rgba(255, 255, 255, 0.9);
+$background-dark: rgba(0, 0, 0, 0.05);
+
+// 阴影效果
+$shadow-normal: 0 15px 35px rgba(0, 0, 0, 0.2);
+$shadow-light: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+// 圆角大小
+$border-radius-sm: 5px;
+$border-radius-md: 10px;
+$border-radius-lg: 20px;
+
+// 过渡动画
+$transition-normal: all 0.3s ease;
+$transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); 

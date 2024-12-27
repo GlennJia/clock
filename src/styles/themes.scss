@@ -1,0 +1,71 @@
+:root {
+    // 基础主题 (默认深色主题)
+    --clock-background: rgba(255, 255, 255, 0.05);
+    --clock-backdrop-blur: 20px;
+    --clock-padding: 3.5rem 4rem;
+    --clock-border-radius: 30px;
+    --clock-border: 1px solid rgba(255, 255, 255, 0.1);
+    --clock-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    
+    // 时间卡片
+    --time-card-background: linear-gradient(180deg, 
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.05) 100%);
+    --time-card-padding: 2rem 1.5rem;
+    --time-card-border-radius: 20px;
+    --time-card-color: #fff;
+    --time-card-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    --time-card-text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    
+    // 时间标签
+    --time-label-background: rgba(255, 255, 255, 0.1);
+    --time-label-color: rgba(255, 255, 255, 0.85);
+    --time-label-border: 1px solid rgba(255, 255, 255, 0.1);
+    --time-label-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    --time-label-padding: 0.4rem 1rem;
+    --time-label-border-radius: 12px;
+    
+    // 分隔符
+    --divider-color: rgba(255, 255, 255, 0.8);
+    --divider-font-size: 3.5rem;
+    
+    // 日期部分
+    --date-color: rgba(255, 255, 255, 0.9);
+    --date-border-color: rgba(255, 255, 255, 0.1);
+    --date-gradient: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    );
+    --date-font-size: 1.8rem;
+    
+    // 字体大小
+    --time-font-size: 4.5rem;
+    --label-font-size: 1rem;
+    
+    // 动画时间
+    --transition-normal: 0.3s ease;
+}
+
+// 浅色主题
+.theme-light {
+    --clock-background: rgba(0, 0, 0, 0.05);
+    --time-card-background: linear-gradient(180deg, 
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.05) 100%);
+    --time-card-color: #333;
+    --time-card-text-shadow: none;
+    --time-label-color: rgba(0, 0, 0, 0.85);
+    --time-label-background: rgba(0, 0, 0, 0.1);
+    --time-label-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --divider-color: rgba(0, 0, 0, 0.8);
+    --date-color: rgba(0, 0, 0, 0.9);
+    --date-border-color: rgba(0, 0, 0, 0.1);
+    --date-gradient: linear-gradient(
+      90deg,
+      transparent,
+      rgba(0, 0, 0, 0.2),
+      transparent
+    );
+}
